@@ -1,228 +1,226 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow-x: clip;
+}
+body {
+  font-family: "Big Shoulders Display";
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+}
+.map-image {
+  display: flex;
+  width: 100%;
+}
+.map-image-desktop {
+  display: none;
+}
+.second-conteiner {
+  width: 100%;
+  height: 493px;
+  background-color: #151515;
+  margin-top: -54px;
+}
+.last-conteiner {
+  width: 100%;
+  height: 336px;
+  background-color: #d5966c;
+}
+.location {
+  width: 56px;
+  height: 72px;
+  background-color: #d5966c;
+  margin: 65px 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.our-location {
+  font-family: "Big Shoulders Display";
+  color: #ffffff;
+  font-weight: 800;
+  letter-spacing: 3.64px;
+  text-decoration: none;
+}
+.location-second {
+  width: 208px;
+  height: 72px;
+  background-color: #151515;
+  margin: 65px -3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner-location {
+  position: absolute;
+  margin-top: -65px;
+  margin-left: -7px;
+  display: flex;
+  justify-content: column;
+}
+.location-second:hover {
+  cursor: pointer;
+  background-color: #d5966c;
+}
+.location-second: hover ~.location {
+  background-color: #151515;
+}
+
+.headline {
+  font-family: "Big Shoulders Display";
+  font-size: 50px;
+  color: #ffffff;
+  padding: 20px;
+  margin-top: 50px;
+  width: 343px;
+}
+.second-headline {
+  ont-family: "Big Shoulders Display";
+  font-size: 32px;
+  color: #d5966c;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 343px;
+}
+.text {
+  font-family: "Outfit", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  width: 343px;
+  line-height: 28px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.second-text {
+  font-family: "Outfit", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  width: 343px;
+  line-height: 28px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.logo {
+  margin-top: 60px;
+  margin-left: 44px;
+  width: 110.05px;
+}
+.last-conteiner-text {
+  font-family: "Outfit", sans-serif;
+  color: #151515;
+  font-size: 16px;
+  line-height: 26px;
+  width: 311px;
+  margin: 44px;
+}
+.socials {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  margin-left: 44px;
+}
+.instagram,
+.facebook,
+.twitter {
+  filter: brightness(0%);
+}
+.instagram:hover {
+  cursor: pointer;
+  filter: none;
+  filter: white;
+}
+.facebook:hover {
+  cursor: pointer;
+  filter: none;
+  filter: white;
+}
+.twitter:hover {
+  cursor: pointer;
+  filter: none;
+  filter: white;
+}
+.map-image-tablet {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .location {
+    margin-left: 68px;
   }
-        html {
-          overflow-x: clip;
-        }
-        body {
-          font-family: 'Big Shoulders Display';
-          width: 100%;
-          overflow: hidden;
-          height: 100%;
-          overflow-y: scroll;"
-          display: flex;
-          flex-wrap: wrap;
-          
-        }
-        .map-image {
-          display: flex;
-          width: 100%;
-          
-          
-        }
-        .map-image-desktop {
-          display: none;
-        }
-        .second-conteiner {
-          width: 100%;
-          height: 493px;
-          background-color: #151515;
-          margin-top: -54px;
-          
-        }
-        .last-conteiner {
-          width: 100%;
-          height: 336px;
-          background-color: #D5966C;
-        }
-        .location {
-          width: 56px;
-          height: 72px;
-          background-color: #D5966C;
-          margin: 65px 3%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-        .our-location {
-          font-family: 'Big Shoulders Display';
-          color: #ffffff;
-          font-weight: 800;
-          letter-spacing: 3.64px;
-          text-decoration: none;
-        }
-        .location-second {
-          width: 208px;
-          height: 72px;
-          background-color: #151515;
-          margin: 65px -3%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .conteiner-location {
-          position: absolute;
-          margin-top: -65px;
-          margin-left: -7px;
-          display: flex;
-          justify-content: column;
-        }
-        .location-second:hover {
-          cursor:pointer;
-          background-color: #D5966C;
-        }
-        .location-second: hover ~ .location {
-          background-color: #151515;
-        }
-        
-        .headline {
-          font-family: 'Big Shoulders Display';
-          font-size: 50px;
-          color: #ffffff;
-          padding: 20px;
-          margin-top: 50px;
-          width: 343px;
-        }
-        .second-headline {
-          ont-family: 'Big Shoulders Display';
-          font-size: 32px;
-          color: #D5966C;
-          margin-top: 10px;
-          margin-left: 20px;
-          width: 343px;
-        }
-        .text {
-          font-family: 'Outfit', sans-serif;
-          color: #ffffff;
-          font-size: 18px;
-          width: 343px;
-          line-height: 28px;
-          margin-left: 20px;
-          margin-top: 20px;
-        }
-        .second-text {
-          font-family: 'Outfit', sans-serif;
-          color: #ffffff;
-          font-size: 18px;
-          width: 343px;
-          line-height: 28px;
-          margin-left: 20px;
-          margin-top: 20px;
-        }
-        .logo {
-          margin-top: 60px;
-          margin-left: 44px;
-          width: 110.05px;
-        }
-        .last-conteiner-text {
-          font-family: 'Outfit', sans-serif;
-          color: #151515;
-          font-size: 16px;
-          line-height: 26px;
-          width: 311px;
-          margin: 44px;
-        }
-        .socials {
-          display: flex;
-          justify-content: space-between;
-          width: 100px;
-          margin-left: 44px;
-        }
-        .instagram, .facebook, .twitter {
-          filter: brightness(0%);
-        }
-        .instagram:hover {
-          cursor: pointer;
-          filter: none;
-          filter: white;
-        }
-        .facebook:hover {
-          cursor: pointer;
-          filter: none;
-          filter: white;
-          
-        }
-        .twitter:hover {
-          cursor: pointer;
-          filter: none;
-          filter: white;
-        }
-        .map-image-tablet {
-          display: none;
-        }
-        
-        @media screen and (min-width:768px) {
-          .location {
-            margin-left: 68px;
-          }
-          .map-image {
-            display: none;
-          }
-          .map-image-tablet {
-            width: 100%;
-            display: flex;
-          }
-          .headline {
-            position: absolute;
-            width: 223px;
-            margin-top: 90px;
-            margin-left: 30px;
-          }
-          .second-headline {
-            position: absolute;
-            margin-left: 350px;
-            margin-top: 110px;
-          }
-          .text {
-            position: absolute;
-            margin: 160px 350px;
-          }
-          .second-text {
-            position: absolute;
-            margin: 280px 350px;
-            width: 398px;
-          }
-          .last-conteiner-text {
-            margin-left: 35%;
-            margin-top: -50px;
-            width: 261px;
-          }
-          .socials {
-            margin-left: 80%;
-            margin-top: -143px;
-          }
-          .last-conteiner {
-            height: 216px;
-          }
-          .logo {
-            margin-left: 10%;
-          }
-          @media screen and (min-width: 1440px) {
-            .map-image-desktop {
-              display: flex;
-              width: 100%;
-            }
-            .map-image-tablet {
-              display: none;
-            }
-            .last-conteiner-text {
-              width: 430px;
-              font-size: 18px;
-            }
-            .socials {
-              margin-top: -120px;
-            }
-            .headline {
-              margin: 7% 8%;
-            }
-            .second-headline {
-              margin-left: 58%;
-            }
-            .text {
-              margin-left: 58%;
-            }
-            .second-text {
-              margin-left: 58%;
-            }
-          }
+  .map-image {
+    display: none;
+  }
+  .map-image-tablet {
+    width: 100%;
+    display: flex;
+  }
+  .headline {
+    position: absolute;
+    width: 223px;
+    margin-top: 90px;
+    margin-left: 30px;
+  }
+  .second-headline {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 110px;
+  }
+  .text {
+    position: absolute;
+    margin: 160px 350px;
+  }
+  .second-text {
+    position: absolute;
+    margin: 280px 350px;
+    width: 398px;
+  }
+  .last-conteiner-text {
+    margin-left: 35%;
+    margin-top: -50px;
+    width: 261px;
+  }
+  .socials {
+    margin-left: 80%;
+    margin-top: -143px;
+  }
+  .last-conteiner {
+    height: 216px;
+  }
+  .logo {
+    margin-left: 10%;
+  }
+  @media screen and (min-width: 1440px) {
+    .map-image-desktop {
+      display: flex;
+      width: 100%;
+    }
+    .map-image-tablet {
+      display: none;
+    }
+    .last-conteiner-text {
+      width: 430px;
+      font-size: 18px;
+    }
+    .socials {
+      margin-top: -120px;
+    }
+    .headline {
+      margin: 7% 8%;
+    }
+    .second-headline {
+      margin-left: 58%;
+    }
+    .text {
+      margin-left: 58%;
+    }
+    .second-text {
+      margin-left: 58%;
+    }
+  }
+}
